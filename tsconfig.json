@@ -1,0 +1,26 @@
+{
+ 
+  "compilerOptions": {
+    "composite": true,
+    // Strict mode enables these strict* and noImplicit* options.
+    // Disable them temporarily while we fix up problematic behaviour from
+    // the time before we wanted strict mode
+    "strictBindCallApply": false,
+    "strictFunctionTypes": false,
+    "noImplicitAny": false,
+    "outDir": "build",
+    "rootDir": "src",
+    "baseUrl": "src",
+    "isolatedModules": false,
+    "types": ["node", "jest"],
+    "jsx": "react-jsx",
+    "esModuleInterop": true
+  
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ],
+  "exclude": ["**/test/**/*", "**/tests/**/*", "node_modules"]
+
+}
