@@ -1,4 +1,4 @@
-# `@shopify/graphql-testing`
+# `graphql-testing`
 
 This is a fork of [@shopify/graphql-testing](https://github.com/Shopify/quilt/tree/main/packages/graphql-testing).  Shopify is moving away from apollo client and their library did not support Apollo Client V3.  This fork has been updated to support V3.
 
