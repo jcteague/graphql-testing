@@ -10,7 +10,10 @@ This package provides utilities to help in the following testing scenarios:
 ## Installation
 
 ```bash
-$ yarn add @shopify/graphql-testing
+$ yarn add graphql-testing
+```
+```
+$ npm i -D graphql-testing
 ```
 
 ## Usage
