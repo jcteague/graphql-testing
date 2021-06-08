@@ -1,6 +1,6 @@
 {
   "name": "graphql-testing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "fork of Shopify's graphql-testing library to support new versions of Apollo Client",
   "main": "build/index.js",
