@@ -1,8 +1,6 @@
-# `@shopify/graphql-testing`
+# `graphql-testing`
 
-[![Build Status](https://github.com/Shopify/quilt/workflows/Node-CI/badge.svg?branch=main)](https://github.com/Shopify/quilt/actions?query=workflow%3ANode-CI)
-[![Build Status](https://github.com/Shopify/quilt/workflows/Ruby-CI/badge.svg?branch=main)](https://github.com/Shopify/quilt/actions?query=workflow%3ARuby-CI)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md) [![npm version](https://badge.fury.io/js/%40shopify%2Fgraphql-testing.svg)](https://badge.fury.io/js/%40shopify%2Fgraphql-testing.svg)
+This is a fork of [@shopify/graphql-testing](https://github.com/Shopify/quilt/tree/main/packages/graphql-testing).  Shopify is moving away from apollo client and their library did not support Apollo Client V3.  This fork has been updated to support V3.
 
 This package provides utilities to help in the following testing scenarios:
 
@@ -12,7 +10,10 @@ This package provides utilities to help in the following testing scenarios:
 ## Installation
 
 ```bash
-$ yarn add @shopify/graphql-testing
+$ yarn add graphql-testing
+```
+```
+$ npm i -D graphql-testing
 ```
 
 ## Usage
