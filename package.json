@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "fork of Shopify's graphql-testing library to support new versions of Apollo Client",
   "main": "build/index.js",
-  "types": "index.d.ts",
+  "types": "build/index.d.ts",
   "sideEffects": false,
   "author": "John Teague",
   "publishConfig": {
